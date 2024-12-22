@@ -30,6 +30,10 @@
                 {
                     res = "[0..14]";
                 }
+            }
+            else
+            { 
+            }
 
                 Console.WriteLine($"Range is {res}");
 

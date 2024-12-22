@@ -31,7 +31,7 @@
             textBox1 = new TextBox();
             textBox2 = new TextBox();
             textBox3 = new TextBox();
-            radioButton1 = new RadioButton();
+            rbAdd = new RadioButton();
             radioButton2 = new RadioButton();
             radioButton3 = new RadioButton();
             radioButton4 = new RadioButton();
@@ -59,16 +59,16 @@
             textBox3.Size = new Size(151, 23);
             textBox3.TabIndex = 2;
             // 
-            // radioButton1
+            // rbAdd
             // 
-            radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(92, 141);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(30, 19);
-            radioButton1.TabIndex = 3;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "*";
-            radioButton1.UseVisualStyleBackColor = true;
+            rbAdd.AutoSize = true;
+            rbAdd.Location = new Point(92, 141);
+            rbAdd.Name = "rbAdd";
+            rbAdd.Size = new Size(30, 19);
+            rbAdd.TabIndex = 3;
+            rbAdd.TabStop = true;
+            rbAdd.Text = "*";
+            rbAdd.UseVisualStyleBackColor = true;
             // 
             // radioButton2
             // 
@@ -122,7 +122,7 @@
             Controls.Add(radioButton4);
             Controls.Add(radioButton3);
             Controls.Add(radioButton2);
-            Controls.Add(radioButton1);
+            Controls.Add(rbAdd);
             Controls.Add(textBox3);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
@@ -137,7 +137,7 @@
         private TextBox textBox1;
         private TextBox textBox2;
         private TextBox textBox3;
-        private RadioButton radioButton1;
+        private RadioButton rbAdd;
         private RadioButton radioButton2;
         private RadioButton radioButton3;
         private RadioButton radioButton4;

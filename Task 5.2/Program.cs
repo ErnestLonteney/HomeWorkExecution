@@ -6,26 +6,32 @@
         {
             Console.WriteLine("Input number");
             string answer = Console.ReadLine();
-            int n;
 
-            if (int.TryParse(answer, out n))
+            if (int.TryParse(answer, out int n))
             {
-                if ((n % 2) == 0)
+                if (n != 0)
                 {
-                    Console.WriteLine("The number is paired");
-                }
-                else
-                {
-                    Console.WriteLine("Not paired number");
-                }
+                    if ((n % 2) == 0)
+                    {
+                        Console.WriteLine("The number is paired");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Not paired number");
+                    }
 
-                if ((n & 1) == 0)
-                {
-                    Console.WriteLine("The number is paired");
+                    if ((n & 1) == 0)
+                    {
+                        Console.WriteLine("The number is paired");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Not paired number");
+                    }
                 }
                 else
                 {
-                    Console.WriteLine("Not paired number");
+                    Console.WriteLine("Zero cannot be paired or unpaired");
                 }
             }         
         }

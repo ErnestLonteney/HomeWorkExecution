@@ -8,10 +8,7 @@ namespace Task_8._4
         }
 
 
-        private double Mul(double a, double b)
-        {
-            return a * b;   
-        }
+        private double Mul(double a, double b) => a * b;  
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -20,7 +17,7 @@ namespace Task_8._4
             if (double.TryParse(textBox1.Text, out double a) && 
                 double.TryParse(textBox2.Text, out double b))
             {
-                if (radioButton1.Checked)
+                if (rbAdd.Checked)
                 {
                     result = Mul(a, b);
                 }

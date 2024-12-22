@@ -4,13 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Input number");
-            string answer = Console.ReadLine();
+            int a = 3, b = 5;
+            int x = 0;
+            bool isValid = true;
 
-            int result = 0;
-            var tryResult = int.TryParse(answer, out result);
-
-            Console.WriteLine(result);  
+            if (!((x > a && x < b) || isValid))
+            {
+                Console.WriteLine("We are here");
+            }
         }
     }
 }

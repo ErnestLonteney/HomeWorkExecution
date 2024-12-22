@@ -9,17 +9,17 @@
             Console.WriteLine("Input B");
             var b = Convert.ToInt32(Console.ReadLine());
 
-           ;
 
-            if (a < b)
+
+           // if (a < b)
             {
                 int sum = 0;
-
-               // a++;
+                //a++;
 
                 //while (a < b)
                 //{
-                //    sum += a;
+      
+                //   sum += a;
 
                 //    if (a % 2 != 0)
                 //        Console.WriteLine(a);
@@ -27,23 +27,23 @@
                 //    a++;
                 //}
 
-                //do
-                //{
-                //    sum += a;
+                do
+                {
+                    sum += a;
 
-                //    if (a % 2 != 0)
-                //        Console.WriteLine(a);
+                    if (a % 2 != 0)
+                        Console.WriteLine(a);
 
-                //    a++;
-                //}
-                //while (a < b);
+                    a++;
+                }
+                while (a < b);
 
-                for (int index = ++a; index < b; index++)
+                for (int index = --b; index > a; index--)
                 {
                     sum += index;
 
                     if (index % 2 != 0)
-                        Console.WriteLine(a);
+                        Console.WriteLine(index);
                 }
 
                 Console.WriteLine($"Sum is {sum}");

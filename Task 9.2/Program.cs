@@ -57,15 +57,12 @@
             return sum / array.Length;  
         }
 
+
         static void DisplayPairedNumbers(byte[] array)
         {
             Console.WriteLine(new string('*', 20));
 
-            for (int i = 1; i < array.Length; i++)
-            {
-                if (array[i] % 2 == 0)
-                    Console.Write(array[i] + " ");
-            }
+            
 
             Console.WriteLine();
             Console.WriteLine(new string('*', 20));
@@ -81,7 +78,7 @@
                 var random = new Random();
                 byte[] array = new byte[number];
 
-                for (int i = 0; i < number; i++)
+                for (int i = 0; i < array.Length; i++)
                 {
                     array[i] = (byte)random.Next(1, 255);
                 }
