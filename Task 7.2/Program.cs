@@ -26,8 +26,8 @@ namespace Task_7._2
 
         static void Main()
         {
-            Console.WriteLine(res.a);
-            Console.WriteLine(res.b);
+            //Console.WriteLine(res.a);
+            //Console.WriteLine(res.b);
 
             Console.WriteLine("Input A");
             var a = double.Parse(Console.ReadLine());
