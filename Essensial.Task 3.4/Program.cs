@@ -32,24 +32,12 @@
                 break;
                 case "2":
                 {
-                        if (worker is ExpertDocumentWorker expertWorker)
-                            expertWorker.EditDocument();
-                        else
-                          if (worker is ProDocumentWorker proWorker)
-                            proWorker.EditDocument();
-                        else
-                            worker.EditDocument();
-                    }
+                   worker.EditDocument();
+                }
                 break;
                 case "3":
                 {
-                        if (worker is ExpertDocumentWorker expertWorker)
-                            expertWorker.SaveDocument();
-                        else
-                        if (worker is ProDocumentWorker proWorker)
-                            proWorker.SaveDocument();
-                        else
-                            worker.SaveDocument();
+                   worker.SaveDocument();
                 }
                 break;
 
