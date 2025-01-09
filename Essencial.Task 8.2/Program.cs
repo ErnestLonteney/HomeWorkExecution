@@ -17,15 +17,15 @@
 
             string answer = Console.ReadLine();
 
-            Color color = (answer) switch
+            ConsoleColor color = (answer) switch
             {
-                "1" => Color.White,
-                "2" => Color.Yellow,
-                "3" => Color.Green,
-                "4" => Color.Blue,
-                "5" => Color.Viollet,
-                "6" => Color.Red,
-                _ => Color.Gray
+                "1" => ConsoleColor.White,
+                "2" => ConsoleColor.Yellow,
+                "3" => ConsoleColor.Green,
+                "4" => ConsoleColor.Blue,
+                "5" => ConsoleColor.DarkBlue,
+                "6" => ConsoleColor.Red,
+                _ => ConsoleColor.Gray
             };
 
             ConsolePrinter.Print(text, color);  
