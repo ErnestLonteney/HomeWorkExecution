@@ -33,19 +33,23 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shifts", "Shifts\Shifts.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 8.6", "Task 8.2\Task 8.6.csproj", "{D8B99B50-6B82-4473-A9D7-B151B7A374ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Essencial.Task 1.2", "Essencial.Task 1.2\Essencial.Task 1.2.csproj", "{2F4E5E7B-024B-458E-AA7C-F452EDDF49A3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Essential.Task 1.2", "Essencial.Task 1.2\Essential.Task 1.2.csproj", "{2F4E5E7B-024B-458E-AA7C-F452EDDF49A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Essencial.Task 3.4", "Essensial.Task 3.4\Essencial.Task 3.4.csproj", "{C33AF721-9C8E-4726-A3BC-42CCEB735A2C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Essential.Task 3.4", "Essensial.Task 3.4\Essential.Task 3.4.csproj", "{C33AF721-9C8E-4726-A3BC-42CCEB735A2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Essencial.Task 4.2", "Essensial.Task 4.2\Essencial.Task 4.2.csproj", "{27825A5A-4BB8-4CFA-A829-A88374099040}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Essential.Task 4.2", "Essensial.Task 4.2\Essential.Task 4.2.csproj", "{27825A5A-4BB8-4CFA-A829-A88374099040}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Essencial.Task 5.4", "Essensial.Task 5.4\Essencial.Task 5.4.csproj", "{F61D451C-EF9A-44AE-B2EF-9835005830DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Essential.Task 5.4", "Essensial.Task 5.4\Essential.Task 5.4.csproj", "{F61D451C-EF9A-44AE-B2EF-9835005830DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Essencial.Task 6.4", "Essencial.Task 6.4\Essencial.Task 6.4.csproj", "{9561AD66-BC46-4688-B9F9-73C28293DA6D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Essential.Task 6.4", "Essencial.Task 6.4\Essential.Task 6.4.csproj", "{9561AD66-BC46-4688-B9F9-73C28293DA6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Essencial.Task 7.2", "Essencial.Task 7.2\Essencial.Task 7.2.csproj", "{79BD904D-5AC0-4E56-AF81-F4B5695D5B27}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Essential.Task 7.2", "Essencial.Task 7.2\Essential.Task 7.2.csproj", "{79BD904D-5AC0-4E56-AF81-F4B5695D5B27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Essencial.Task 8.2", "Essencial.Task 8.2\Essencial.Task 8.2.csproj", "{00B3C505-0B77-42CC-BAB9-3D8AA7A1C66F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Essential.Task 8.2", "Essencial.Task 8.2\Essential.Task 8.2.csproj", "{00B3C505-0B77-42CC-BAB9-3D8AA7A1C66F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Essential.Task 8.5", "Essencial.Task 8.5\Essential.Task 8.5.csproj", "{400E56AD-32C6-4EC3-A95B-E985B812B3F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Essential.Task 9.2", "Essential.Task 9.2\Essential.Task 9.2.csproj", "{6E89C4B9-2C41-46A5-A2D4-E44E81B92EAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +145,14 @@ Global
 		{00B3C505-0B77-42CC-BAB9-3D8AA7A1C66F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00B3C505-0B77-42CC-BAB9-3D8AA7A1C66F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00B3C505-0B77-42CC-BAB9-3D8AA7A1C66F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{400E56AD-32C6-4EC3-A95B-E985B812B3F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{400E56AD-32C6-4EC3-A95B-E985B812B3F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{400E56AD-32C6-4EC3-A95B-E985B812B3F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{400E56AD-32C6-4EC3-A95B-E985B812B3F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E89C4B9-2C41-46A5-A2D4-E44E81B92EAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E89C4B9-2C41-46A5-A2D4-E44E81B92EAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E89C4B9-2C41-46A5-A2D4-E44E81B92EAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E89C4B9-2C41-46A5-A2D4-E44E81B92EAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
