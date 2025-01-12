@@ -12,6 +12,8 @@
                 var daysToMyBirthday = new DateTime(DateTime.Now.Year, date.Month, date.Day) - DateTime.Now;
 
                 Console.WriteLine($"For your bithday left {daysToMyBirthday.Days} days");
+                Console.WriteLine($"It`s {daysToMyBirthday.TotalHours:##.##} hours");
+                Console.WriteLine($"Or {daysToMyBirthday.TotalMinutes:##.##} minutes");
             }
         }
     }
