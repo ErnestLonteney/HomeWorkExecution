@@ -14,6 +14,7 @@
                 Console.WriteLine($"For your bithday left {daysToMyBirthday.Days} days");
                 Console.WriteLine($"It`s {daysToMyBirthday.TotalHours:##.##} hours");
                 Console.WriteLine($"Or {daysToMyBirthday.TotalMinutes:##.##} minutes");
+                Console.WriteLine($"Or {daysToMyBirthday.TotalSeconds:##.##} seconds");
             }
         }
     }
