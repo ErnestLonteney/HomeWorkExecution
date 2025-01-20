@@ -10,6 +10,9 @@
             list.Add(3);
             Console.WriteLine(list.Count());
 
+
+
+
             Console.WriteLine(list[0]);
         }
     }
