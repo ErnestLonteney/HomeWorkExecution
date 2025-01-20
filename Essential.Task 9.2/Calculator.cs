@@ -6,6 +6,9 @@
         {
            var result =  calculate.Invoke(a, b, out error);
             
+
+
+
            return result;
         }
     }
