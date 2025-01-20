@@ -6,7 +6,6 @@
         {
             Console.WriteLine("Input number");
             string answer = Console.ReadLine();
-
             if (int.TryParse(answer, out int n))
             {
                 if (n != 0)
