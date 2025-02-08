@@ -1,0 +1,17 @@
+﻿<Window x:Class="Professional_Task_3._3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Professional_Task_3._3"
+        mc:Ignorable="d"
+        Title="MainWindow" Background="LawnGreen" Height="450" Width="800">
+    <StackPanel>
+        <Label HorizontalAlignment="Center">Directory path</Label>
+        <TextBox Name="tbDirectory" Height="30" Width="500"></TextBox>
+        <Label HorizontalAlignment="Center">File name</Label>
+        <TextBox Name="tbFile" Height="30" Width="500" ></TextBox>
+        <Button Content="Search" Height="50" Width="250" FontSize="16" FontWeight="Bold" Foreground="Orange" Background="White" Margin="30" Click="Button_Click" />
+        <TextBlock Name="tbOut" Height="200" Background="White" ></TextBlock>
+    </StackPanel>
+</Window>
